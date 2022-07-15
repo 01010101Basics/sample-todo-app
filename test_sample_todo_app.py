@@ -3,7 +3,7 @@ from selenium.webdriver.common.keys import Keys
 import os
 import json
 
-url = os.getenv("LT_HUB_URL")
+url = os.getenv("https://closerwalk:5VgbUvIktwH85HHABbQPtP65tJbpUBkjaOPI4C8hGUEyP4VYYp@hub.lambdatest.com")
 capabilities = {
     "build" : os.getenv("LT_BUILD_NAME"),
     "name" : "Quick Test",
