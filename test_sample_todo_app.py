@@ -7,12 +7,13 @@ url = os.getenv("LT_HUB_URL")
 capabilities = {
     "build" : os.getenv("LT_BUILD_NAME"),
     "name" : "Quick Test",
-    "operatingSystem" : "Win10",
+    "PlatformName" : "Windows 10",
     "browserName" : "Chrome",
     "browserVersion" : "104.0",
     "resolution" : "1920x1080",
     "tunnel" : True,
-    "geoLocation" : "US"
+    "geoLocation" : "US",
+    "selenium_version" : "4.0.0"
    
 }
 driver = webdriver.Remote(
