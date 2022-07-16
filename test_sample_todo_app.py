@@ -13,7 +13,7 @@ capabilities = {
     "resolution" : "1920x1080",
     "tunnel" : True,
     "geoLocation" : "US",
-    "selenium_version" : "4.0.0"
+    "selenium_version" : "3.0.0"
    
 }
 driver = webdriver.Remote(
