@@ -7,9 +7,9 @@ url = os.getenv("LT_HUB_URL")
 capabilities = {
     "build" : os.getenv("LT_BUILD_NAME"),
     "name" : "Quick Test",
-    "platform" : "Windows 10",
+    "operatingSystem" : "Win10",
     "browserName" : "Chrome",
-    "version" : "82.0",
+    "browserVersion" : "104.0",
     "resolution" : "1920x1080",
     "tunnel" : True,
     "geoLocation" : "US"
