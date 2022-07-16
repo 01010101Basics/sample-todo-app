@@ -9,7 +9,7 @@ capabilities = {
     "name" : "Quick Test",
     "platform" : "Windows 10",
     "browserName" : "Chrome",
-    "version" : "93.0",
+    "version" : "82.0",
     "resolution" : "1920x1080",
     "tunnel" : True,
     "geoLocation" : "US"
